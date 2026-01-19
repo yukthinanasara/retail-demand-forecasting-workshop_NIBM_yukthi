@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environment
+venv/
+env/
+#log and data
+log/
+# IDE files
+.idea/
+*.iml
+# Mac/Linux system files
+.DS_Store
+
+*.swp
+# Logs
+*.log
+# Models and large outputs
+models/
+outputs/
+*.pkl
+*.joblib
+# Config secrets (if any)
+config/config_secret.py
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+# OS files
+Thumbs.db
